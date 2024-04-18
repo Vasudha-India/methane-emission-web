@@ -21,7 +21,7 @@ from joblib import dump, load
 
 def initialize_ee():
   # Replace with your downloaded key file path
-  service_account_file = "key_s1128512_earth.json"
+  service_account_file = "data/key_s1128512_earth.json"
 
   # Set up service account credentials
   credentials = ee.ServiceAccountCredentials(
