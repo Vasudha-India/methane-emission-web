@@ -135,7 +135,7 @@ def plot_prediction(prediction,selected_date):
 if page == "Methane for Selected Date":
     min_date = datetime(2014, 1, 1)
     max_date = datetime(2023,12,1)
-    selected_start_date = st.date_input("Select start month and year:", min_value=min_date, max_value=max_date, value=min_date)
+    selected_start_date = st.date_input("Choose the month and year to access methane concentration data and its corresponding image.:", min_value=min_date, max_value=max_date, value=min_date)
     # Extract the selected month and year from the selected date
     selected_start_month = selected_start_date.month
     selected_start_year = selected_start_date.year
