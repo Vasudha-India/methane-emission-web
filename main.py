@@ -194,8 +194,13 @@ if page == "Methane for Selected Date":
     
         st.plotly_chart(fig)
         st.write(f'Total methan concentration in tonnes is {methane_sum}')
-
-    st.link_button("Compare Methane concentration monthly/yearly", "https://methane-emission-state-wise.streamlit.app/")
+    col1,col2=s.columns(2)
+    with col1:
+        
+        st.write('To compare methane concentration on a monthly or yearly basis:)
+    with col2:
+    
+        st.link_button("Click Here", "https://methane-emission-state-wise.streamlit.app/")
     
     
     
