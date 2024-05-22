@@ -38,7 +38,7 @@ col1, col2 = st.columns([1, 5])
 col1.image(resized_img, use_column_width=True)
 
 # Display the title in the second column
-col2.title('Methane Emission Calculation Web App')
+col2.title('District-Level Methane Emissions Tracking App (2014-2023)')
 district_data = pd.read_csv('data/District_corrected_names.csv')
 states = district_data['STATE'].unique().tolist()  # Get unique states
 
