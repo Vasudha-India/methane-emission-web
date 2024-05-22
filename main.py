@@ -121,11 +121,11 @@ def plot_prediction(prediction,selected_date):
     )
     # Create the figure layout
     layout = go.Layout(
-        title=f'Methane concentration Kg on {selected_date}',
+        title=f'Map of Methane Concentration (Month, Year)',
         xaxis=dict(title='Km', scaleanchor='y', scaleratio=1),
         yaxis=dict(title='km'),
         coloraxis_colorbar=dict(
-            title=f'Total Methane concentration on {selected_date} in Kg',
+            title=f'In District, State, the total methane concentration was xxx kilograms on Date, Year.',
         )
     )
     # Create the figure
